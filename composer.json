@@ -1,0 +1,21 @@
+{
+    "name": "blackoin/api-sdk",
+    "description": "SDK oficial para integração com a API do gateway Blackoin, oferecendo endpoints para processar pagamentos, consultar transações e gerenciar saldos em criptomoedas de forma rápida e segura.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Blackoin\\ApiSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jefferson Ataa",
+            "email": ""
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+		"php": ">=8.0"
+    }
+}
