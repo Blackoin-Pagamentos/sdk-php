@@ -14,8 +14,10 @@
             "email": "contato@blackoin.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
 		"php": ">=8.0"
-    }
+    },
+    "version": "0.0.1"
 }
